@@ -10,5 +10,4 @@ public class AddingSpectraPointsToTwo implements Algorithm {
         }
         return resultSpectra;
     }
-
 }

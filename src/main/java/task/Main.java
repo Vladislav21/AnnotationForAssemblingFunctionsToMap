@@ -11,8 +11,10 @@ public class Main {
         List<Point> points = Arrays.asList(new Point(2,3),new Point(2,2),new Point(3,3));
         Spectra spectra = new Spectra(points);
         Set<String> stringSet = function.keySet();
+        System.out.println("Primary spectra: "+spectra+"\n");
         for (String s : stringSet) {
-            System.out.println(function.get(s).run(spectra));
+            System.out.println("Result spectra with NameFunction: "+s);
+            System.out.println(function.get(s).run(spectra)+"\n");
         }
     }
 }
